@@ -80,8 +80,9 @@ inputs = {
   admin_password      = "DevPassword1234!"
   subnet_id           = "/subscriptions/12345678-1234-9876-4563-123456789012/resourceGroups/devresourcegroup/providers/Microsoft.Network/virtualNetworks/dev-vnet/subnets/dev-subnet"
 }
+```
 
-## Infrastructure Details Aws
+### Infrastructure Details AWS
 
 - **Virtual Network (VPC)**: Configured with subnets for web, application, and database tiers.
 - **Virtual Machine Scale Set (AutoScaling)**: Two VMs in the web tier with a Load Balancer and scaling capabilities.
@@ -160,6 +161,7 @@ inputs = {
   subnet_ids                  = ["subnet-12345678", "subnet-87654321"] 
   vpc_id                      = "vpc-12345678"        
 }
+```
 
 
 
