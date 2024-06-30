@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project automates the deployment of a scalable web application in Azure using Terraform. The infrastructure includes a Virtual Network, multiple Virtual Machines, a Load Balancer, and an Azure SQL Database.
+This project automates the deployment of a scalable web application in Azure and AWS using Terraform. The infrastructure includes a Virtual Network, multiple Virtual Machines, a Load Balancer, and an Azure SQL Database.
 
 ## Infrastructure Details
 
