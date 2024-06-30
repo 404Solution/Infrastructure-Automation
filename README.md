@@ -1,48 +1,5 @@
 # Azure/AWS Infrastructure Automation with Terraform
 
-# Directories Format
-
-├── environments
-│   ├── dev
-│   │   ├── terragrunt.hcl
-│   ├── qa
-│   │   ├── terragrunt.hcl
-│   └── prod
-│       ├── terragrunt.hcl
-├── modules
-│   ├── vnet
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   ├── variables.tf
-│   │   ├── backend.tf
-│   │   ├── provider.tf
-│   ├── nsg
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   ├── variables.tf
-│   │   ├── backend.tf
-│   │   ├── provider.tf
-│   ├── vm
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   ├── variables.tf
-│   │   ├── backend.tf
-│   │   ├── provider.tf
-│   ├── vmss
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   ├── variables.tf
-│   │   ├── backend.tf
-│   │   ├── provider.tf
-│   ├── sql_database
-│   │   ├── main.tf
-│   │   ├── outputs.tf
-│   │   ├── variables.tf
-│   │   ├── backend.tf
-│   │   ├── provider.tf
-└── terragrunt.hcl
-
-
 ## Project Overview
 
 This project automates the deployment of a scalable web application in Azure using Terraform. The infrastructure includes a Virtual Network, multiple Virtual Machines, a Load Balancer, and an Azure SQL Database.
