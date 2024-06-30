@@ -16,12 +16,12 @@ This project automates the deployment of a scalable web application in Azure and
 
 ## Setup Instructions
 
-1. Install Terraform and Azure CLI.
+1. Install Terraform and Terragrunt and Azure CLI.
 2. Log in to Azure using the Azure CLI: `az login`
 3. Clone this repository and navigate to the project directory.
-4. Initialize Terraform: `terraform init`
-5. Plan the infrastructure deployment: `terraform plan`
-6. Apply the configuration: `terraform apply`
+4. Initialize Terragrunt: `terragrunt init`
+5. Plan the infrastructure deployment: `terragrunt plan`
+6. Apply the configuration: `terragrunt apply`
 
 ## Azure
 
