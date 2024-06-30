@@ -64,7 +64,7 @@ This project automates the deployment of a scalable web application in Azure and
 
 ### Example Configuration for Development Environment Azure
 
-`environments/dev/terragrunt.hcl`
+#### `environments/dev/terragrunt.hcl`
 
 ```hcl
 terraform {
