@@ -1,4 +1,4 @@
-# Azure/AWS Infrastructure Automation with Terraform
+# Azure/AWS Infrastructure Automation with Terraform/Terragrunt
 
 ## Project Overview
 
